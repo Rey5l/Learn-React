@@ -1,0 +1,27 @@
+.button {
+	display: inline-block;
+	background-color: #ff850a; /* Primary color */
+	color: #fff; /* Text color */
+	text-align: center;
+	font-size: 15px;
+	padding: 10px 24px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s;
+	margin: 20px 10px;
+}
+
+.button:hover {
+	opacity: 0.8; /* Darker shade of primary color */
+}
+
+.button.active {
+	background-color: #9f1404; /* Even darker shade of primary color */
+	transform: scale(0.95);
+	color: #fff; /* Makes the button feel like it's being pressed */
+}
+
+.button:disabled {
+	cursor: not-allowed;
+}

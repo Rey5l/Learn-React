@@ -1,0 +1,15 @@
+.header__logo {
+	font-size: 55px;
+	color: #641902;
+}
+
+nav a {
+	margin: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	transition: all 0.3s ease;
+}
+
+nav a:hover {
+	color: #641902;
+}
